@@ -1,10 +1,17 @@
 name: Repository Despatch
 on:
     repository_dispatch:
+<<<<<<< HEAD
+        types: [test]
+    push:
+        branches:
+            - "main"
+=======
         types: [test1]
     push:
         branches:
             - "main"
+>>>>>>> 0177d82388b3af801a5843c9fe82cc7c54742d4e
 
 jobs:
     test:
