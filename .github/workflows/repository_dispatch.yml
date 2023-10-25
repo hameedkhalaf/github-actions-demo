@@ -7,4 +7,5 @@ jobs:
     test:
         runs-on: ubuntu-latest
         steps:
-          - run: echo "Success"
+          - run: ls
+            shell: bash
