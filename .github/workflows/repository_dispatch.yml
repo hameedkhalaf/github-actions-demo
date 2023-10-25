@@ -2,9 +2,6 @@ name: Repository Despatch
 on:
     repository_dispatch:
         types: [test]
-    push:
-        branches:
-            - "main"
         types: [test1]
     push:
         branches:
